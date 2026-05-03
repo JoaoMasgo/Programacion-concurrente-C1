@@ -1,3 +1,22 @@
+"""
+x = 0
+
+def tarea():
+    global x
+    x += 1
+    print(x)
+explicar:
+x = 0
+
+hilo1 lee x = 0
+hilo2 lee x = 0
+
+hilo1 suma y guarda x = 1
+hilo1 imprime 1
+
+hilo2 suma y guarda x = 1
+hilo2 imprime 1
+"""
 import threading
 import time
 
